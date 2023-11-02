@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*PANTALLAS GRANDES*/
+@media screen and (min-width: 960px){
+    /*Barra fija*/
+    header nav{
+        position: fixed;
+        background-color: #7da0c3;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    nav div{
+        width: 20%;
+        height: 5%;
+    }
+    .imgH{
+        width: 15%;
+    }
+    .imgH:hover{
+        filter: invert(100%);
+        transition: ease-in-out 0.3s;
+    }
+    .imgH:not(:hover){
+        transition: ease-in-out 0.3s;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px black;
+        justify-content: space-between;
+    }
+    .linkNav:hover{
+        filter: invert(75%);
+        transition: ease-in-out 0.3s;
+    }
+    .linkNav:not(:hover){
+        transition: ease-in-out 0.3s;
+    }
+
+    /*Sección de Recursos*/
+    #linksUt h1{
+        padding-top: 10%;
+        padding-bottom: 5%;
+        text-align: center;
+        font-size: 30px;
+        color: #3e72a5;
+    }
+    .recursos{
+        padding: 0% 5% 0% 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    article img{
+        margin-bottom: 5%;
+        border-radius: 5%;
+    }
+    .zoom {
+        transition: transform .2s;
+    } 
+    .zoom:hover {
+        transform: scale(1.25);
+    }
+    article a{
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .recursos p{
+        padding-top: 3%;
+        max-width: 70%;
+        margin: auto;
+    }
+}
+
+    span a:hover{
+        text-shadow: 1px 1px 2px rgb(56, 56, 56);
+    }
+
+.construccion{
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+/*PANTALLAS MEDIANAS*/
+@media screen and (min-width: 740px) and (max-width: 959px) {
+    /*Barra fija*/
+    header nav{
+        position: fixed;
+        background-color: #7da0c3;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .imgH{
+        width: 15%;
+    }
+    .imgH:hover{
+        filter: invert(100%);
+        transition: ease-in-out 0.3s;
+    }
+    .imgH:not(:hover){
+        transition: ease-in-out 0.3s;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 2px black;
+        font-size: 90%;
+    }
+    .linkNav:hover{
+        filter: invert(75%);
+        transition: ease-in-out 0.3s;
+    }
+    .linkNav:not(:hover){
+        transition: ease-in-out 0.3s;
+    }
+
+    /*Sección de Recursos*/
+    #linksUt h1{
+        padding-top: 10%;
+        text-align: center;
+        font-size: 175%;
+        color: #3e72a5;
+    }
+    .recursos{
+        padding: 6% 5% 5% 5%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    article img{
+        margin-bottom: 5%;
+        border-radius: 5%;
+    }
+    .zoom {
+        transition: transform .2s;
+    } 
+    .zoom:hover {
+        transform: scale(1.25);
+    }
+    article a{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .recursos p{
+        padding-top: 3%;
+        max-width: 70%;
+        margin: auto;
+    }
+
+    span a{
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .construccion{
+        display: flex;
+        justify-content: center;
+        padding-top: 7%;
+    }
+}
