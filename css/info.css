@@ -1,0 +1,14 @@
+.seccionPrincipal{
+    padding: 10% 10% 0% 10%;
+}
+.otraSeccion{
+    padding: 6% 10% 0% 10%;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+img{
+    width: 50%;
+}
